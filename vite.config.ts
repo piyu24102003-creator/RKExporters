@@ -9,10 +9,10 @@ export default defineConfig({
 	  plugins: [
 	    ...mochaPlugins(process.env as any),
 	    react(),
-	    cloudflare({
+	    !process.env.VERCEL && cloudflare({
 	      auxiliaryWorkers: [{ configPath: "/mocha/emails-service/wrangler.json" }],
 	    }),
-	  ],
+	  ].filter(Boolean),
 	  server: {
 	    allowedHosts: true,
 	  },
