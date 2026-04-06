@@ -44,8 +44,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <a href="tel:+919876543210" className="hover:text-primary transition-colors">
-                  +91 98765 43210
+                <a href="tel:+917621009552" className="hover:text-primary transition-colors">
+                  +91 76210 09552
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>Mumbai, Maharashtra, India</span>
+                <span>Vadodara, Gujrat, India</span>
               </li>
             </ul>
           </div>

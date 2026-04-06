@@ -1,6 +1,3 @@
-import { companyHistory } from '@/data/products';
-import { Award, TrendingUp } from 'lucide-react';
-
 export default function History() {
   return (
     <section id="history" className="py-24 relative overflow-hidden">
@@ -13,7 +10,7 @@ export default function History() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        {/* Section Header */}
+        {/* Section Header 
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-4">
             <Award className="w-4 h-4 text-primary" />
@@ -28,23 +25,22 @@ export default function History() {
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             From humble beginnings to becoming a trusted name in international trade
           </p>
-        </div>
+        </div>*/}
 
         {/* Timeline */}
-        <div className="relative">
-          {/* Center Line */}
+        {/*<div className="relative">
+          {/* Center Line 
           <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-primary/50 to-primary transform -translate-x-1/2" />
 
-          {/* Timeline Items */}
+          {/* Timeline Items 
           <div className="space-y-12">
             {companyHistory.map((item, index) => (
               <div
                 key={item.year}
-                className={`flex items-center gap-8 ${
-                  index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                }`}
+                className={`flex items-center gap-8 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                  }`}
               >
-                {/* Content */}
+                {/* Content 
                 <div className={`flex-1 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
                   <div className="bg-card border-2 border-border hover:border-primary/50 rounded-xl p-6 shadow-lg hover:shadow-2xl hover:shadow-primary/10 transition-all duration-300 hover:-translate-y-1">
                     <div className="inline-flex items-center gap-2 mb-3">
@@ -60,17 +56,17 @@ export default function History() {
                   </div>
                 </div>
 
-                {/* Center Dot */}
+                {/* Center Dot 
                 <div className="hidden md:flex items-center justify-center w-12 h-12 rounded-full bg-primary border-4 border-background shadow-lg z-10">
                   <div className="w-3 h-3 rounded-full bg-primary-foreground animate-pulse" />
                 </div>
 
-                {/* Spacer */}
+                {/* Spacer 
                 <div className="hidden md:block flex-1" />
               </div>
             ))}
           </div>
-        </div>
+        </div>*/}
 
         {/* Achievements Banner */}
         <div className="mt-20 grid md:grid-cols-3 gap-6">

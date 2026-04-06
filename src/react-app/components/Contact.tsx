@@ -19,14 +19,14 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1500));
-    
+
     setIsSubmitting(false);
     setIsSubmitted(true);
     setFormData({ name: '', email: '', phone: '', message: '' });
-    
+
     setTimeout(() => setIsSubmitted(false), 5000);
   };
 
@@ -73,8 +73,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground mb-1">Official Contact</div>
-                    <a href="tel:+919876543210" className="text-lg font-semibold hover:text-primary transition-colors">
-                      +91 98765 43210
+                    <a href="tel:+917621009552" className="text-lg font-semibold hover:text-primary transition-colors">
+                      +91 76210 09552
                     </a>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ export default function Contact() {
                   <div>
                     <div className="text-sm text-muted-foreground mb-1">Office Location</div>
                     <p className="text-lg font-semibold">
-                      Mumbai, Maharashtra<br />
+                      Vadodara, Gujrat<br />
                       India
                     </p>
                   </div>
